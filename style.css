@@ -90,10 +90,10 @@ section {
     .text {
         width: 60vw;
         height: 20vh;
-        font-size: 15vw;
+        font-size: 17vw;
     }
     .img1 {
-        margin-left: -220vw;
+        margin-left: -170vw;
         margin-right: none;
     }
     .par {
