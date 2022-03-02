@@ -64,9 +64,9 @@ section {
     top: 50vh;
     left: 20vw;
     font-size: 4.5vh;
+    background-color: rgba(59, 59, 59, 0.356);
     max-width: 60vw;
     max-height: 40vh;
-    background-color: rgba(59, 59, 59, 0.356);
     border: none;
     border-radius: 30px;
     opacity: 1;
@@ -86,11 +86,11 @@ section {
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 767px) {
     .text {
         width: 60vw;
         height: 20vh;
-        font-size: 18vw;
+        font-size: 15vw;
     }
     .img1 {
         margin-left: -220vw;
