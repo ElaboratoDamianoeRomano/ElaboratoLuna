@@ -61,10 +61,10 @@ section {
 .par {
     font-family: sans-serif;
     position: absolute;
-    top: 50vh;
+    top: 45vh;
     left: 20vw;
     font-size: 4.5vh;
-    background-color: rgba(59, 59, 59, 0.356);
+    background-color: rgba(59, 59, 59, 0.493);
     max-width: 60vw;
     max-height: 40vh;
     border: none;
@@ -97,7 +97,7 @@ section {
         margin-right: none;
     }
     .par {
-        font-size: 5.2vw;
+        font-size: 5vw;
         
     }
     .autori {
