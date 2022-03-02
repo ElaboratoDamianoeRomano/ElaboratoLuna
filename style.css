@@ -61,7 +61,7 @@ section {
 .par {
     font-family: sans-serif;
     position: absolute;
-    top: 45vh;
+    top: 50vh;
     left: 20vw;
     font-size: 4.5vh;
     background-color: rgba(59, 59, 59, 0.493);
@@ -97,6 +97,7 @@ section {
         margin-right: none;
     }
     .par {
+        top: 45vh;
         font-size: 5vw;
         
     }
