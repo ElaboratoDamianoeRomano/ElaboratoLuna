@@ -86,7 +86,7 @@ section {
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 720px) {
     .text {
         width: 60vw;
         height: 20vh;
