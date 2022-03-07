@@ -116,7 +116,7 @@ section {
         top: 1vh;
     }
 }
-@media screen and (min-width: 351px) and (max-width: 400px){
+/*@media screen and (min-width: 351px) and (max-width: 400px){
     .text {
         width: 60vw;
         max-width: 65vw;
@@ -187,7 +187,7 @@ section {
         top: 1vh;
     }
 }
-
+*/
 .img {
     height: 100vh ;
     margin-left: auto;
