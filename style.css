@@ -141,6 +141,7 @@ section {
 }
 @media screen and (min-width: 401px) and (max-width: 450px){
     .text {
+        display: none;
         width: 60vw;
         max-width: 65vw;
         max-height: 25vh;
