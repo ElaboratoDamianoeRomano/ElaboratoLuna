@@ -176,6 +176,7 @@ section {
         margin-right: none;
     }
     .par {
+        display: none;
         font-size: 5vw;
         max-width: 80vw;
         max-height: 40vh;
