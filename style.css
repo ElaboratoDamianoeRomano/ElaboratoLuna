@@ -97,7 +97,7 @@ section {
 }
 
 
-@media screen and (min-width: 300px) and (max-width: 1080px){
+@media screen and (min-width: 300px) and (max-width: 350px){
     .text {
         max-width: 60vw;
         height: 20vh;
@@ -109,6 +109,75 @@ section {
     }
     .par {
         font-size: 5vw;
+        
+    }
+    .autori {
+        left: 6vw;
+        top: 1vh;
+    }
+}
+@media screen and (min-width: 351px) and (max-width: 400px){
+    .text {
+        width: 60vw;
+        max-width: 65vw;
+        max-height: 25vh;
+        font-size: 12vw;
+        left: 0vw;
+    }
+    .img1 {
+        margin-left: -215vw;
+        margin-right: none;
+    }
+    .par {
+        font-size: 5vw;
+        max-width: 80vw;
+        max-height: 40vh;
+        
+    }
+    .autori {
+        left: 6vw;
+        top: 1vh;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 450px){
+    .text {
+        width: 60vw;
+        max-width: 65vw;
+        max-height: 25vh;
+        font-size: 12vw;
+        left: 0vw;
+    }
+    .img1 {
+        margin-left: -220vw;
+        margin-right: none;
+    }
+    .par {
+        font-size: 5vw;
+        max-width: 80vw;
+        max-height: 40vh;
+        
+    }
+    .autori {
+        left: 6vw;
+        top: 1vh;
+    }
+}
+@media screen and (min-width: 451px) and (max-width: 850px){
+    .text {
+        width: 60vw;
+        max-width: 65vw;
+        max-height: 25vh;
+        font-size: 12vw;
+        left: 0vw;
+    }
+    .img1 {
+        margin-left: -240vw;
+        margin-right: none;
+    }
+    .par {
+        font-size: 5vw;
+        max-width: 80vw;
+        max-height: 40vh;
         
     }
     .autori {
