@@ -2,4 +2,4 @@ $('img').bind('contextmenu', function(e) {
     return false;
 }); 
 
-$('img').on('dragstart', function(event) { event.preventDefault(); });
+document.getElementById('img').ondragstart = function() { return false; };
