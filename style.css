@@ -3,6 +3,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: white;
+    scroll-behavior: smooth;
 }
 .container {
     width: 100%;
@@ -58,19 +59,29 @@ section {
     animation-duration: 2s;
     left: 0%;
 }
-.par {
-    font-family: sans-serif;
+.bg {
     position: absolute;
-    top: 50vh;
-    left: 20vw;
-    font-size: 4.5vh;
-    background-color: rgba(59, 59, 59, 0.493);
-    max-width: 60vw;
+    background-color: rgba(59, 59, 59, 0.507);
+    
     max-height: 40vh;
+    max-width: 66vw;
+
+    margin-top: 50vh;
+    margin-left: 18vw;
+
     border: none;
     border-radius: 30px;
     opacity: 1;
     transition: 2s, opacity;
+
+}
+.par {
+    font-family: sans-serif;
+    position: relative;
+    font-size: 4.5vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+
 }
 
 .autori {
@@ -86,18 +97,17 @@ section {
 }
 
 
-@media (max-width: 767px) {
+@media screen and (min-width: 300px) and (max-width: 1080px){
     .text {
-        width: 60vw;
+        max-width: 60vw;
         height: 20vh;
-        font-size: 20vw;
+        font-size: 13vw;
     }
     .img1 {
         margin-left: -170vw;
         margin-right: none;
     }
     .par {
-        top: 45vh;
         font-size: 5vw;
         
     }
