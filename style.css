@@ -97,7 +97,6 @@ section {
 }
 .consiglio {
     font-family: sans-serif;
-
 }
 .bg1 {
     position: absolute;
@@ -106,7 +105,7 @@ section {
     max-height: 15vh;
     max-width: 15vw;
 
-    margin-top: 5vh;
+    margin-top: 8vh;
     margin-left: 70vw;
 
     border: none;
@@ -133,6 +132,9 @@ section {
         left: 6vw;
         top: 1vh;
     }
+    .consiglio {
+        display: none;
+    }
 }
 @media screen and (min-width: 351px) and (max-width: 400px){
     .text {
@@ -155,6 +157,9 @@ section {
     .autori {
         left: 6vw;
         top: 1vh;
+    }
+    .consiglio {
+        display: none;
     }
 }
 @media screen and (min-width: 401px) and (max-width: 450px){
@@ -179,6 +184,9 @@ section {
         left: 6vw;
         top: 1vh;
     }
+    .consiglio {
+        display: none;
+    }
 }
 @media screen and (min-width: 451px) and (max-width: 800px){
     .text {
@@ -202,6 +210,9 @@ section {
     .autori {
         left: 6vw;
         top: 1vh;
+    }
+    .consiglio {
+        display: none;
     }
 }
 
@@ -249,7 +260,7 @@ section {
     left: 5vw;
 }
 ::-webkit-scrollbar {
-    width: 20px;
+    width:1.2vw;
   }
   
   /* Track */
@@ -271,3 +282,24 @@ section {
     background: white;
     border-radius: 10px;
   }
+footer {
+    height: 30vh;
+    background-color: black;
+    width: 100%;
+}
+button{
+    margin-top: 0.2%;
+    margin-right: 5%;
+    height: 90%;
+    background-color: rgb(36, 36, 36);
+    border: solid white;
+    border-width: 3px;
+    color: white;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+button:hover {
+    background-color: white;
+    color: rgb(36, 36, 36);
+    border: solid rgb(36, 36, 36);
+}
